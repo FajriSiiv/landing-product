@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Header() {
   return (
-    <div className="flex justify-around items-center container pt-5 pb-3 fixed -translate-x-1/2  left-1/2">
+    <div className="flex justify-around items-center container pt-5 pb-3 fixed -translate-x-1/2  left-1/2 z-20 bg-[#060B27]">
       <div>
         <p className="text-3xl font-bold">Product.</p>
       </div>
