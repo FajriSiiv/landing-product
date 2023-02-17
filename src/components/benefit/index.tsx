@@ -4,17 +4,32 @@ import columnPrev from "/src/img/column-prev-img.png";
 import benetImg from "/src/img/benet-img.png";
 import ButtonColour from "../button/buttonColour";
 import ButtonTrans from "../button/buttonTransparent";
+import { MdMarkEmailRead, MdOutlineEventAvailable } from "react-icons/md";
+import { GoFileSubmodule } from "react-icons/go";
+import { HiDocument } from "react-icons/hi";
 
 export default function Benefit() {
   return (
     <div className="container mx-auto min-h-screen pb-10">
       <div className="flex flex-col justify-center items-center gap-y-4">
         <h2 className="text-4xl">Essential apps that protect your</h2>
-        <div className="flex gap-x-10 text-4xl">
-          <span>Email,</span>
-          <span>Event,</span>
-          <span>Files,</span>
-          <span>Documents</span>
+        <div className="flex gap-x-4 text-4xl">
+          <span className="flex  gap-x-2 items-center">
+            <MdMarkEmailRead className="text-white" />
+            Email,
+          </span>
+          <span className="flex  gap-x-2 items-center">
+            <MdOutlineEventAvailable className="text-white" />
+            Event,
+          </span>
+          <span className="flex  gap-x-2 items-center">
+            <GoFileSubmodule className="text-white" />
+            Files,
+          </span>
+          <span className="flex  gap-x-2 items-center">
+            <HiDocument className="text-white" />
+            Documents
+          </span>
         </div>
       </div>
       <div className="mt-10 relative">
