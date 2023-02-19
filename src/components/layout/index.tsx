@@ -4,7 +4,7 @@ import Header from "./header";
 
 export default function Layout({ children }: { children: React.ReactNode }) {
   return (
-    <div className="bg-[#060B27] w-full min-h-screen text-white">
+    <div className="bg-[#060B27] w-full min-h-screen text-white sm:overflow-hidden">
       <Header />
       {children}
       <Footer />

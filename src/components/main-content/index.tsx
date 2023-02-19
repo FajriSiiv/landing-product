@@ -5,12 +5,12 @@ import imgContent from "/src/hero-image.webp";
 
 export default function MainContent() {
   return (
-    <div className="container mx-auto h-screen relative md:h-fit">
+    <div className="container mx-auto h-screen relative md:h-fit sm:pt-10">
       <div className="flex flex-col h-full justify-center items-center pt-20">
-        <h1 className="text-5xl font-semibold text-center text-transparent bg-clip-text bg-gradient-to-b from-white to-slate-400 leading-relaxed tracking-wide md:text-2xl">
+        <h1 className="text-5xl font-semibold text-center text-transparent bg-clip-text bg-gradient-to-b from-white to-slate-400 leading-relaxed tracking-wide md:text-2xl sm:text-xl sm:mb-5">
           A CRM dashboard for engineering teams
         </h1>
-        <p className="text-light w-1/2 text-center text-[#8F9BB7] md:text-sm md:first-letter:">
+        <p className="text-light w-1/2 text-center text-[#8F9BB7] md:text-sm sm:w-[90%]">
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure magnam
           distinctio nostrum minus et nihil!
         </p>

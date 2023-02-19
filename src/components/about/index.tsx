@@ -4,7 +4,7 @@ import icUserInfo from "/src/ic/ic-user-info.svg";
 export default function About() {
   const CardAbout = () => {
     return (
-      <div className="w-1/3 md:w-1/2">
+      <div className="w-1/3 md:min-w-full">
         <div className="w-[95%] min-h-[200px] bg-[#0E1330] border-[#282D45] border-2 rounded-md p-5 mx-auto">
           <div className="w-full px-3">
             <img src={icUserInfo} alt="ic-user-info" className="w-10 h-10" />
@@ -32,7 +32,7 @@ export default function About() {
           debitis quasi ducimus, qui hic. Lorem ipsum dolor sit amet consectetur
         </p>
       </div>
-      <div className="flex flex-wrap justify-start items-center gap-y-5 mt-10 w-full">
+      <div className="flex flex-wrap justify-start items-center gap-y-5 mt-10 w-full sm:flex-wrap">
         <CardAbout />
         <CardAbout />
         <CardAbout />

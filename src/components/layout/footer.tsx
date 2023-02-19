@@ -17,25 +17,25 @@ export default function Footer() {
   };
 
   return (
-    <footer className="relative container mx-auto h-fit overflow-hidden pb-10">
-      <div className="flex justify-between w-full h-full items-center pb-10">
-        <div className="flex flex-col w-1/3">
+    <footer className="relative container mx-auto h-fit overflow-hidden pb-10 px-5">
+      <div className="flex justify-between w-full h-full items-center pb-10 md:flex-col md:gap-y-10">
+        <div className="flex flex-col w-1/3 md:w-full">
           <div className="flex flex-col gap-y-3 ">
-            <span className="text-3xl font-bold">Product.</span>
-            <div className="border-slate-500/50 border-[1px] flex flex-col gap-y-5 py-7 px-10 rounded-lg">
-              <p className="text-xl font-semibold">
+            <span className="text-3xl font-bold md:hidden">Product.</span>
+            <div className="border-slate-500/50 border-[1px] flex flex-col gap-y-5 py-7 px-10 rounded-lg md:w-full md:mx-auto md:max-w-[400px] sm:p-5">
+              <p className="text-xl font-semibold sm:text-sm">
                 Subscribe to our newsletter
               </p>
               <input
                 type="text"
-                className="border-[1px] border-slate-500/50 rounded-full py-2 px-5 bg-transparent text-white mt-5"
+                className="border-[1px] sm:px-3 border-slate-500/50 rounded-full py-2 px-5 bg-transparent text-white mt-5"
                 placeholder="Enter your email"
               />
               <ButtonColour text="Subscribe" />
             </div>
           </div>
         </div>
-        <div className="flex w-2/3">
+        <div className="flex w-2/3 md:w-full">
           <div className="flex justify-between w-full text-slate-500/80 text-sm">
             <div className="flex justify-evenly w-2/3 ">
               <div className="flex flex-col gap-y-4">
@@ -69,7 +69,7 @@ export default function Footer() {
         </div>
       </div>
       <hr className="border-slate-500/50" />
-      <div className="flex justify-between items-center">
+      <div className="flex justify-between items-center sm:flex-col sm:pb-5">
         <div className="text-slate-500/80 py-2 text-sm">
           <p className="flex gap-x-2">
             Copyright © Product |
